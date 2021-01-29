@@ -1,0 +1,582 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.profile-container {
+    background-image: url(./assets/kevin-bhagat-zNRITe8NPqY-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 92vh;
+    position: sticky;
+    top: -72vh;
+    z-index: 1;
+}
+
+.profile-filter {
+    height: 92vh;
+    background-color: rgba(255,165,0,0.06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-content {
+    height: 20vh;
+    width: 100vw;
+    background-color: rgba(255,165,0,0.5);
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: -5vh;
+}
+
+
+
+.profile-title {
+    font-size: 2.3em;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.profile-subtitle {
+    font-size: 1.3em;
+}
+
+.navbar-container {
+    height: 8vh;
+    display:flex;
+    color: whitesmoke;
+    position: sticky;
+    top: 12vh;
+    z-index: 1;
+}
+
+.left-of-navbar{
+    flex: 1;
+    background-color:rgb(255,165,0);
+}
+
+.right-of-navbar{
+    flex: 1;
+    background-color: rgb(255,165,0);
+}
+
+.navbar {
+    flex: 4;
+    display: flex;
+}
+
+.nav-item {
+    flex: 1;
+}
+
+a {
+    background-color: rgb(255,165,0);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+a:hover{
+    cursor: pointer;
+    background-color: white;
+    color:  rgb(255,165,0);
+}
+
+
+/**************************************************/
+
+.sections {
+    display: flex;
+    justify-content: center;
+}
+
+.sections-container {
+    width: 80vw;
+}
+
+.section {
+    padding-top: 15vh;
+    justify-content: center;
+}
+
+.theheader {
+    height: 18vh;
+}
+
+
+.thetitle-row {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thetitle-row hr {
+    width: 40%;
+    height: 1vh;
+    border-radius: 1vh;
+    background-color:rgb(54, 54, 54);
+    border-color: rgb(54, 54, 54);
+}
+
+.title-div {
+    font-size: 2em;
+    display: flex;
+}
+
+.title-item-1{
+    margin: 0.5vw;
+    color: rgb(54, 54, 54);
+}
+
+.title-item-2{
+    color: rgb(255,165,0);
+    margin: 0.5vw;
+}
+
+.thsubtitle-row {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -15%;
+    z-index: -1;
+    color: rgb(150, 149, 149);
+}
+
+/******************************************/
+
+.thecontent{
+    height: 70vh;
+    display: flex;
+}
+
+.the-image {
+    flex: 4;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.an-image {
+    height: 60%;
+    width: 60%;
+    transform: rotate(-10deg);
+    border-radius: 1vh;
+    box-shadow: 2px 3px 42px -5px rgba(141,81,11,1);
+    -webkit-box-shadow: 2px 3px 42px -5px rgba(141,81,11,1);
+    -moz-box-shadow: 2px 3px 42px -5px rgba(141,81,11,1);
+}
+
+.about-presentation {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation-container {
+    position: relative;
+    top: 12vh;
+}
+
+.presentation-title {
+    font-size: 2em;
+    margin: 4%;
+    color: rgb(54, 54, 54)	;
+    
+}
+
+.the-presentation {
+    color:rgb(54, 54, 54);
+    font-size: 1.4em;
+    margin: 4%;
+    font-family: 'Indie Flower', cursive;
+}
+
+/********************************/
+
+.skills {
+    height: 100%;
+    flex: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.the-skills-presentation {
+    color:rgb(54, 54, 54);
+    font-size: 1.4em;
+    margin: 4%;
+}
+
+.skills-presentation {
+    height: 100%;
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-row {
+    display: flex;
+    flex: 1;
+}
+
+.skills-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-image {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    box-shadow: 2px 3px 42px -5px rgba(141,81,11,1);
+    -webkit-box-shadow: 2px 3px 42px -5px rgba(141,81,11,1);
+    -moz-box-shadow: 2px 3px 42px -5px rgba(141,81,11,1); 
+    transition: 0.6s;
+}
+
+.skill-img:hover {
+    transform: scale(1.2);
+}
+
+.skill-title {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(54, 54, 54);
+}
+
+/*******************************/
+.works-content {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.works-content-container {
+    display: flex;
+    height: 50vh;
+    width: 100%;   
+}
+
+.works-item {
+    height: 100%;
+    flex: 1;
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s;
+}
+
+.view-more{
+    border: solid 0.1em whitesmoke;
+    color: rgb(255,165,0);
+    padding: 2%;
+    border-radius: 2vh;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.works-item:hover{
+    opacity: 0.9;
+}
+
+.works-item:hover > .view-more{
+    background-color:  whitesmoke;
+    color: rgb(255,165,0);
+    transform: scale(1.3);
+}
+
+.works-item-1 {
+    background-image: url(./assets/carlos-muza-hpjSkU2UYSU-unsplash.jpg);
+}
+
+.works-item-2 {
+    background-image: url(./assets/nick-morrison-FHnnjk1Yj7Y-unsplash.jpg);
+}
+
+.works-item-4 {
+    background-image: url(./assets/domenico-loia-EhTcC9sYXsw-unsplash.jpg);
+}
+
+.works-item-3 {
+    background-image: url(./assets/luke-chesser-JKUTrJ4vK00-unsplash.jpg);
+}
+
+/***************************************************/
+
+.section-opinions {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+.client-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.client-photo:hover {
+    transform: scale(1.1);
+}
+
+.client-photo:hover ~ .client-word {
+    transform: scale(1.1);
+    color: rgb(54, 54, 54);
+}
+
+.client-photo:hover ~ .signature{
+    transform: scale(1.1);
+}
+
+.photo-client-container {
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 2px 3px 42px -5px rgb(68, 68, 67);
+    -webkit-box-shadow: 2px 3px 42px -5px rgba(68, 68, 67,1);
+    -moz-box-shadow: 2px 3px 42px -5px rgba(68, 68, 67,1);
+}
+
+.client-word {
+    text-align: center;
+    padding: 2em;
+    transition: 1s;
+    color: rgb(131, 131, 131);
+}
+
+.signature {
+    margin-top: 10px;
+    text-align: right;
+    color: rgb(131, 131, 131);
+    transition: 1s;
+}
+
+/**********************************************/
+
+footer {
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    background-position: right;
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.footer-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border {
+    height: 80%;
+    width: 2px;
+    background-color: white;
+}
+
+.contact {
+    border: solid 1px whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    width: 70%;
+}
+
+.contact-me {
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 4px;
+}
+
+.contact-container {
+    display: flex;
+}
+
+.first-name {
+    flex: 1;
+}
+.last-name {
+    flex: 1;
+}
+
+input {
+    height: 5vh;
+    border-radius: 1%;
+    border: none;
+    background-color: rgb(53, 52, 52);
+    color: white;
+    margin: 4px;
+    padding-left: 8%;
+    font-family: 'Maven Pro', sans-serif;
+}
+::placeholder { 
+    color: white;
+    font-weight: 600;
+    font-family: 'Maven Pro', sans-serif;
+  }
+  
+.user-icon1 {
+    position: relative;
+    top: -4.5vh;
+    left: 2vh;
+}
+.user-icon2 {
+    position: relative;
+    top: -4.5vh;
+    left: 33vh;
+}
+
+.email-icon {
+    position: relative;
+    top: -4.5vh;
+    left: 2vh;
+}
+
+.phone-icon {
+    position: relative;
+    top: -4.5vh;
+    left: 2vh;
+}
+
+.message {
+    border-radius: 1%;
+    border: none;
+    background-color: rgb(53, 52, 52);
+    color: white;
+    margin: 4px;
+    padding:2% 0% 0% 8%;
+    resize: none;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.message-icon {
+    position: relative;
+    top: -10.5vh;
+    left: 2vh;
+}
+
+.submit {
+    position: relative;
+    left: 1vh;
+    width: 20%;
+    border-radius: 1%;
+    border: solid .5px white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    cursor: pointer;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.submit-btn {
+    flex: 1;
+    margin-right: 5%;
+}
+.arrow {
+    flex: 1;
+    margin-left: 5%;
+}
+  
+.footer-left {
+    flex: 1.13;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-left-container {
+    width: 80%;
+}
+
+hr {
+    width: 80%;
+}
+
+.info {
+    display: flex;
+    align-items: flex-end;
+}
+.info-title {
+    padding-left: 2%;
+}
+.info-description {
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 6%;
+}
+
+.social {
+    height: 32px;
+    width: 32px;
+    margin-right: 2%;
+}
+
+.facebook {
+    background-image: url("./icons/facebook\ \(1\).png");
+}
+
+.facebook:hover {
+    background-image: url("./icons/facebook.png");
+}
+
+.linkedin {
+    background-image: url("./icons/linkedin\ \(1\).png");
+}
+
+.linkedin:hover {
+    background-image: url("./icons/linkedin.png");
+}
+
+.twitter {
+    background-image: url("./icons/twitter\ \(1\).png");
+}
+
+.twitter:hover {
+    background-image: url("./icons/twitter.png");
+}
+
+.instagram {
+    background-image: url("./icons/instagram\ \(1\).png");
+}
+
+.instagram:hover {
+    background-image: url("./icons/instagram.png");
+}
